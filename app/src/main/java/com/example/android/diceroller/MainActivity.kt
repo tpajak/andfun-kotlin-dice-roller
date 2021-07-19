@@ -49,7 +49,6 @@ class MainActivity : AppCompatActivity() {
 
         val diceResult: ImageView = findViewById(R.id.dice_image_view)
 
-        // TODO (05) Make the ImageView show the chosen drawable resource
         diceResult.setImageResource(drawableResource)
     }
 }
